@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/men1"
+        android:title="Profil"
+        android:icon="@drawable/utilisateur"/>
+    <item
+        android:id="@+id/men2"
+        android:title="Paramètres"
+        android:icon="@drawable/reglages"/>
+    <item
+        android:id="@+id/men3"
+        android:title="A propos de FLAG"
+        android:icon="@drawable/interrogatoire"/>
+    <item
+        android:id="@+id/men4"
+        android:title="Nous contacter"
+        android:icon="@drawable/whatsapp"/>
+    <item
+        android:id="@+id/men5"
+        android:title="Partager sur Wathsapp"
+        android:icon="@drawable/partager"/>
+
+</menu>
