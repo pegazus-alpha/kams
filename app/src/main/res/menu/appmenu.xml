@@ -20,5 +20,8 @@
         android:id="@+id/men5"
         android:title="Partager sur Wathsapp"
         android:icon="@drawable/partager"/>
+    <item android:id="@+id/decon"
+        android:icon="@drawable/cle"
+        android:title="Déconnexion"/>
 
 </menu>

@@ -1,6 +1,7 @@
 package com.example.flag;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
@@ -98,6 +99,15 @@ public class MainActivity extends AppCompatActivity {
                     partage.putExtra(Intent.EXTRA_TEXT,message);
                     startActivity(Intent.createChooser(partage,"Partager via"));
                     return true;
+                }
+                else{
+                    SharedPreferences sh=getSharedPreferences("MyPref",MODE_PRIVATE);
+                    SharedPreferences.Editor ed=sh.edit();
+                    ed.putBoolean("isLog",false);
+                    ed.apply();
+                    Intent intent=new Intent(MainActivity.this,Connect.class);
+                    startActivity(intent);
+                    finishAffinity();
                 }
                 return true;
             }
