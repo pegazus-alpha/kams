@@ -2,4 +2,14 @@
     <string name="app_name">FLAG</string>
     <string name="todo">position</string>
     <string name="cours_de_pleine_conscience">COURS DE PLEINE CONSCIENCE</string>
+    <string-array name="filiere">
+        <item>INFORMATIQUE</item>
+        <item>MATHEMATIQUES</item>
+        <item>BIOCHIMIE</item>
+    </string-array>
+    <string-array name="nivo">
+        <item>L1</item>
+        <item>L2</item>
+        <item>L3</item>
+    </string-array>
 </resources>

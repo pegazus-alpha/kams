@@ -1,245 +1,945 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="264dp"
-        android:orientation="vertical">
+    android:orientation="vertical">
 
-        <ImageView
+    <ScrollView
+        android:id="@+id/scrol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/casse"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="300dp"
+                        android:contentDescription="logo de flag"
+                        android:src="@drawable/logo2" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/cours_de_pleine_conscience"
+                        android:textColor="@color/black"
+                        android:textSize="35sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:padding="20dp"
+                        android:text="offbvoifbvrfoivnrfovinrfviirnov rvoi  iglerngeroinerogierg ergoier gerroig ergoeri gerrogi ergoie rgpoz goizr gerg ergrig reiug ergibe giue rgiuezr gzepiug zegiuez ^giuze gpzeihg zeîg zeig zeguiezg zeugz epguize pguize gpzeg zeiug zepiug zegize gpezigu zepiguez gzei eziug ri rg rgoi   r  oirn oir iorg  r oir rg oig gro g  g igi og  rg   gr oig nrgk  r kgrm ierg îrg rgoi ru rgoi  r grgn zri nrtio zrt bzto rztpozri trt r rpo nrto rop rto rtop rtoi rto rt oirt tr ort rtior i r oi "
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/bout_n"
+                        android:padding="15dp"
+                        android:text="VOIR PLUS"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:id="@+id/aun"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:background="@drawable/aun"
+                        android:orientation="vertical">
+
+                        <!--<ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="logo de flag"
+                android:src="@drawable/aun" />-->
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="NOUVELLE APPROCHE GRACE A UNE APPLICATION MOBILE"
+                    android:textColor="@color/black"
+                    android:textSize="35sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/aven1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@color/bleusx"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Gain de temps et personalisation"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Accès aux supports de cours, Bulletins de Notes, Consultation des notes et Notifications pour nouveaux contenus"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/aven2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@color/red4"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Amélioration de la communication"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Rappels pour les cours et les examens, Communiqués Officiels et annonces: Réception d'informations importantes en temps réel."
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/aven3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@color/yel"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Transparence des informations"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Mise à disposition des communiqués et documents signés en temps réel."
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/aven4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@color/vert2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Emploies de temps epersonalisés"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Mise en place des emploies de temps d'études par rapport aux plages horaires  et disponibilité des utilisateurs"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/peope"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/peope"
+                android:orientation="vertical">
+
+                <!--<ImageView
             android:layout_width="match_parent"
             android:layout_height="264dp"
-            android:contentDescription="logo de flag"
-            android:src="@drawable/logo2" />
+             android:contentDescription="logo de flag"
+            android:src="@drawable/peope" />-->
 
-    </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
-            >
+            </LinearLayout>
 
-            <TextView
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/cours_de_pleine_conscience"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:gravity="center"
-                android:textSize="40sp"
-                android:textColor="@color/black"
-                />
-        </LinearLayout>
-    <LinearLayout
-        android:layout_margin="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+                android:layout_margin="20dp"
+                android:orientation="vertical">
 
-        <TextView
-            android:layout_marginBottom="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="offbvoifbvrfoivnrfovinrfviirnov rvoi  ri rg rgoi   r  oirn oir iorg  r oir rg oig gro g  g igi og  rg   gr oig nrgk  r kgrm ierg îrg rgoi ru rgoi  r grgn zri nrtio zrt bzto rztpozri trt r rpo nrto rop rto rtop rtoi rto rt oirt tr ort rtior i r oi "
-            android:layout_gravity="center"
-            android:textSize="20sp"
-            />
-        <Button
+                <TextView
+                    android:id="@+id/huit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="8 Week Mindfulness Journey"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@color/bleusx"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/casse"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_margin="10dp"
+                        android:background="@color/bleusx"
+                        android:padding="15dp"
+                        android:src="@drawable/whatsapp"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Mise en place des emploies de temps d'études par rapport aux plages horaires  et disponibilité des utilisateurs"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@color/red4"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_margin="10dp"
+                        android:background="@color/red4"
+                        android:padding="15dp"
+                        android:src="@drawable/whatsapp"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Mise en place des emploies de temps d'études par rapport aux plages horaires  et disponibilité des utilisateurs"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@color/yel"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_margin="10dp"
+                        android:background="@color/yel"
+                        android:padding="15dp"
+                        android:src="@drawable/whatsapp"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Mise en place des emploies de temps d'études par rapport aux plages horaires  et disponibilité des utilisateurs"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@color/vert2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/casse"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_margin="10dp"
+                        android:background="@color/vert2"
+                        android:padding="15dp"
+                        android:src="@drawable/whatsapp"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="Mise en place des emploies de temps d'études par rapport aux plages horaires  et disponibilité des utilisateurs"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/r"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/route"
+                android:orientation="vertical">
+
+                <!--<ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="VOIR PLUS"
-            android:layout_gravity="center"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+            android:layout_height="wr"
+            android:layout_gravity="start"
+            android:layout_margin="10dp"
+            android:src="@drawable/route" />-->
+                <LinearLayout
+                    android:id="@+id/route"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:contentDescription="logo de flag"
-            android:src="@drawable/aun" />
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/yel"
+                        android:text="" />
 
-    </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:layout_gravity="center"
-            android:layout_margin="20dp"
-            >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="J'ECRIS MOI SEULEMENT"
+                        android:textColor="@color/black"
+                        android:textSize="30sp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="NOUVELLE APPROCHE GRACE A UNE APPLICATION MOBILE"
-                android:layout_gravity="center"
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:padding="20dp"
+                        android:text="offbvoifbvrfoivnrfovinrfviirnov rvoi  ri rg rgoi   r  oirn oir iorg  r oir rg oig gro g  g igi og  rg   gr oig nrgk  r kgrm ierg îrg rgoi ru rgoi  r grgn zri nrtio zrt bzto rztpozri trt r rpo nrto rop rto rtop rtoi rto rt oirt tr ort rtior i r oi "
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:padding="20dp"
+                        android:text="offbvoifbvrfoivnrfovinrfviirnov rvoi  ri rg rgoi   r  oirn oir iorg  r oir rg oig gro g  g igi og  rg   gr oig nrgk  r kgrm ierg îrg rgoi ru rgoi  r grgn zri nrtio zrt bzto rztpozri trt r rpo nrto rop rto rtop rtoi rto rt oirt tr ort rtior i r oi "
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:text="VOIR PLUS" />
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:background="@color/red4"
+                        android:text="" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
                 android:gravity="center"
-                android:textSize="40sp"
-                android:textColor="@color/black"
-                />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_margin="15dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@color/black">
-            <LinearLayout
-                android:background="@color/white"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_margin="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_margin="10dp"
+                    android:id="@+id/pro"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Gain de temps et personalisation"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:textStyle="bold"
-                    android:textSize="30sp"
+                    android:text="A propos de notre travail"
                     android:textColor="@color/black"
-                    />
-                <TextView
-                    android:layout_margin="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Accès aux supports de cours, Bulletins de Notes, Consultation des notes et Notifications pour nouveaux contenus"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textStyle="italic"
-                    android:textSize="25sp"
-                    android:textColor="@color/black"
-                    />
+                    android:textSize="30sp" />
             </LinearLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_margin="15dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@color/black">
+
             <LinearLayout
-                android:background="@color/white"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
+                android:id="@+id/xa"
+                android:background="@drawable/infbor"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_marginBottom="25dp"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_margin="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Amélioration de la communication"
+                    android:layout_height="20dp"
                     android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textStyle="bold"
-                    android:textSize="30sp"
-                    android:textColor="@color/black"
-                    />
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/vert2"
+                    android:text="" />
+
                 <TextView
-                    android:layout_margin="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Rappels pour les cours et les examens, Communiqués Officiels et annonces: Réception d'informations importantes en temps réel."
                     android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
                     android:gravity="center"
-                    android:textStyle="italic"
-                    android:textSize="25sp"
+                    android:text="17"
                     android:textColor="@color/black"
-                    />
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="Vidéos de cours"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="A propos de notre travail pozfoiefbveffjv eroviebnvoiervb jehfvùzrvzertvjzr tivujer vervbzrfiuvberhv ri brhjvn rotujvb roi bhir  pzehrviuertvhbeithv r iursfb iurov niur iorfdh b ieuhjboizeiwjaZPAOID "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
             </LinearLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_margin="15dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@color/black">
+
             <LinearLayout
-                android:background="@color/white"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
+                android:id="@+id/xb"
+                android:background="@drawable/infbor"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_marginBottom="25dp"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_margin="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Transparence des informations"
+                    android:layout_height="20dp"
                     android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textStyle="bold"
-                    android:textSize="30sp"
-                    android:textColor="@color/black"
-                    />
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/bleusx"
+                    android:text="" />
+
                 <TextView
-                    android:layout_margin="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Mise à disposition des communiqués et documents signés en temps réel."
                     android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
                     android:gravity="center"
-                    android:textStyle="italic"
-                    android:textSize="25sp"
+                    android:text="17"
                     android:textColor="@color/black"
-                    />
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="Vidéos de cours"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="A propos de notre travail pozfoiefbveffjv eroviebnvoiervb jehfvùzrvzertvjzr tivujer vervbzrfiuvberhv ri brhjvn rotujvb roi bhir  pzehrviuertvhbeithv r iursfb iurov niur iorfdh b ieuhjboizeiwjaZPAOID "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
             </LinearLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_margin="15dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@color/black">
+
             <LinearLayout
-                android:background="@color/white"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
+                android:id="@+id/xc"
+                android:background="@drawable/infbor"
+                android:layout_width="300dp"
+                android:layout_marginBottom="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:elevation="5dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_margin="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Emploies de temps epersonalisés"
+                    android:layout_height="20dp"
                     android:layout_gravity="center"
-                    android:gravity="center"
-                    android:textStyle="bold"
-                    android:textSize="30sp"
-                    android:textColor="@color/black"
-                    />
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/yel"
+                    android:text="" />
+
                 <TextView
-                    android:layout_margin="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Mise en place des emploies de temps d'études par rapport aux plages horaires  et disponibilité des utilisateurs"
                     android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
                     android:gravity="center"
-                    android:textStyle="italic"
-                    android:textSize="25sp"
+                    android:text="17"
                     android:textColor="@color/black"
-                    />
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="Vidéos de cours"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="A propos de notre travail pozfoiefbveffjv eroviebnvoiervb jehfvùzrvzertvjzr tivujer vervbzrfiuvberhv ri brhjvn rotujvb roi bhir  pzehrviuertvhbeithv r iursfb iurov niur iorfdh b ieuhjboizeiwjaZPAOID "
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:background="@drawable/medit"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!--<ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:contentDescription="logo de flag"
+                android:src="@drawable/logo2" />-->
+                <TextView
+                    android:id="@+id/zen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Free Mindfulness Courses"
+                    android:textColor="@color/white"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:background="@drawable/bout_n"
+                    android:text="contact us" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/casse"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:text="Contact Us"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:background="@color/yel"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="NAME"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:text="Work"
+                            android:textSize="20sp" />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="start"
+                            android:layout_margin="10dp"
+                            android:background="@color/yel"
+                            android:padding="15dp"
+                            android:src="@drawable/whatsapp"
+                            app:tint="@color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:background="@color/yel"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="NAME"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:text="Work"
+                            android:textSize="20sp" />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="start"
+                            android:layout_margin="10dp"
+                            android:background="@color/yel"
+                            android:padding="15dp"
+                            android:src="@drawable/whatsapp"
+                            app:tint="@color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:background="@color/yel"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="NAME"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:text="Work"
+                            android:textSize="20sp" />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="start"
+                            android:layout_margin="10dp"
+                            android:background="@color/yel"
+                            android:padding="15dp"
+                            android:src="@drawable/whatsapp"
+                            app:tint="@color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:background="@color/yel"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="NAME"
+                            android:textColor="@color/black"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:text="Work"
+                            android:textSize="20sp" />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="start"
+                            android:layout_margin="10dp"
+                            android:background="@color/yel"
+                            android:padding="15dp"
+                            android:src="@drawable/whatsapp"
+                            app:tint="@color/white" />
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
-</ScrollView>
+    </ScrollView>
 </LinearLayout>

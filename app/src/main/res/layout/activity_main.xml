@@ -17,7 +17,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:background="@color/red"
+            android:background="@color/bl"
             android:elevation="2dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -31,18 +31,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/menmen"
-                android:background="@color/red"
+                android:background="@color/bl"
                 android:contentDescription="@string/todo" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="@string/app_name"
-                android:textColor="#000000"
-                android:textSize="15sp"
-                tools:layout_editor_absoluteX="176dp"
-                tools:layout_editor_absoluteY="10dp" />
+
 
         </androidx.appcompat.widget.Toolbar>
 
@@ -50,14 +42,14 @@
             android:id="@+id/barre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/red"
-            app:tabIndicatorColor="@color/vert"
+            android:background="@color/bl"
+            app:tabIndicatorColor="@color/white"
             android:elevation="2dp"
             app:tabTextColor="@color/white"
             app:tabIconTint="@drawable/selecteur"
             app:tabMode="scrollable"
             app:tabGravity="center"
-            app:tabSelectedTextColor="@color/vert"
+            app:tabSelectedTextColor="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -68,10 +60,10 @@
             android:id="@+id/viewpage"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/barre"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/barre"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
             app:layout_constraintVertical_bias="0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     <com.google.android.material.navigation.NavigationView
