@@ -51,7 +51,7 @@
                         android:gravity="center"
                         android:text="@string/cours_de_pleine_conscience"
                         android:textColor="@color/black"
-                        android:textSize="35sp" />
+                        android:textSize="30sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -69,7 +69,7 @@
                         android:layout_marginBottom="10dp"
                         android:padding="20dp"
                         android:text="offbvoifbvrfoivnrfovinrfviirnov rvoi  iglerngeroinerogierg ergoier gerroig ergoeri gerrogi ergoie rgpoz goizr gerg ergrig reiug ergibe giue rgiuezr gzepiug zegiuez ^giuze gpzeihg zeîg zeig zeguiezg zeugz epguize pguize gpzeg zeiug zepiug zegize gpezigu zepiguez gzei eziug ri rg rgoi   r  oirn oir iorg  r oir rg oig gro g  g igi og  rg   gr oig nrgk  r kgrm ierg îrg rgoi ru rgoi  r grgn zri nrtio zrt bzto rztpozri trt r rpo nrto rop rto rtop rtoi rto rt oirt tr ort rtior i r oi "
-                        android:textSize="20sp" />
+                        android:textSize="15sp" />
 
                     <Button
                         android:id="@+id/button1"
@@ -115,7 +115,7 @@
                     android:gravity="center"
                     android:text="NOUVELLE APPROCHE GRACE A UNE APPLICATION MOBILE"
                     android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:textSize="30sp" />
             </LinearLayout>
 
 
@@ -142,7 +142,7 @@
                         android:gravity="center"
                         android:text="Gain de temps et personalisation"
                         android:textColor="@color/black"
-                        android:textSize="24sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -153,7 +153,7 @@
                         android:gravity="center"
                         android:text="Accès aux supports de cours, Bulletins de Notes, Consultation des notes et Notifications pour nouveaux contenus"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
                         android:textStyle="italic" />
                 </LinearLayout>
             </LinearLayout>
@@ -181,7 +181,7 @@
                         android:gravity="center"
                         android:text="Amélioration de la communication"
                         android:textColor="@color/black"
-                        android:textSize="24sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -192,7 +192,7 @@
                         android:gravity="center"
                         android:text="Rappels pour les cours et les examens, Communiqués Officiels et annonces: Réception d'informations importantes en temps réel."
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
                         android:textStyle="italic" />
                 </LinearLayout>
             </LinearLayout>
@@ -223,7 +223,7 @@
                         android:gravity="center"
                         android:text="Transparence des informations"
                         android:textColor="@color/black"
-                        android:textSize="24sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -234,7 +234,7 @@
                         android:gravity="center"
                         android:text="Mise à disposition des communiqués et documents signés en temps réel."
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
                         android:textStyle="italic" />
                 </LinearLayout>
             </LinearLayout>
@@ -262,7 +262,7 @@
                         android:gravity="center"
                         android:text="Emploies de temps epersonalisés"
                         android:textColor="@color/black"
-                        android:textSize="24sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -273,7 +273,7 @@
                         android:gravity="center"
                         android:text="Mise en place des emploies de temps d'études par rapport aux plages horaires  et disponibilité des utilisateurs"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
                         android:textStyle="italic" />
 
 
@@ -284,7 +284,7 @@
                 android:id="@+id/peope"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
-                android:layout_margin="5dp"
+                android:layout_margin="10dp"
                 android:background="@drawable/peope"
                 android:orientation="vertical">
 
@@ -331,8 +331,8 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
                         android:layout_gravity="end"
                         android:layout_margin="10dp"
                         android:background="@color/bleusx"
@@ -348,7 +348,7 @@
                         android:gravity="center"
                         android:text="Mise en place des emploies de temps d'études par rapport aux plages horaires  et disponibilité des utilisateurs"
                         android:textColor="@color/black"
-                        android:textSize="20sp"
+                        android:textSize="15sp"
                         android:textStyle="italic" />
                 </LinearLayout>
             </LinearLayout>
@@ -369,8 +369,8 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
                         android:layout_gravity="end"
                         android:layout_margin="10dp"
                         android:background="@color/red4"
@@ -386,7 +386,7 @@
                         android:gravity="center"
                         android:text="Mise en place des emploies de temps d'études par rapport aux plages horaires  et disponibilité des utilisateurs"
                         android:textColor="@color/black"
-                        android:textSize="20sp"
+                        android:textSize="15sp"
                         android:textStyle="italic" />
                 </LinearLayout>
             </LinearLayout>
@@ -407,8 +407,8 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
                         android:layout_gravity="start"
                         android:layout_margin="10dp"
                         android:background="@color/yel"
@@ -424,7 +424,7 @@
                         android:gravity="center"
                         android:text="Mise en place des emploies de temps d'études par rapport aux plages horaires  et disponibilité des utilisateurs"
                         android:textColor="@color/black"
-                        android:textSize="20sp"
+                        android:textSize="15sp"
                         android:textStyle="italic" />
                 </LinearLayout>
             </LinearLayout>
@@ -445,8 +445,8 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
                         android:layout_gravity="start"
                         android:layout_margin="10dp"
                         android:background="@color/vert2"
@@ -462,7 +462,7 @@
                         android:gravity="center"
                         android:text="Mise en place des emploies de temps d'études par rapport aux plages horaires  et disponibilité des utilisateurs"
                         android:textColor="@color/black"
-                        android:textSize="20sp"
+                        android:textSize="15sp"
                         android:textStyle="italic" />
                 </LinearLayout>
             </LinearLayout>
@@ -470,7 +470,7 @@
             <LinearLayout
                 android:id="@+id/r"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="700dp"
                 android:layout_marginStart="10dp"
                 android:background="@drawable/route"
                 android:orientation="vertical">
@@ -505,7 +505,7 @@
                         android:gravity="center"
                         android:text="J'ECRIS MOI SEULEMENT"
                         android:textColor="@color/black"
-                        android:textSize="30sp" />
+                        android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -515,7 +515,7 @@
                         android:layout_marginBottom="5dp"
                         android:padding="20dp"
                         android:text="offbvoifbvrfoivnrfovinrfviirnov rvoi  ri rg rgoi   r  oirn oir iorg  r oir rg oig gro g  g igi og  rg   gr oig nrgk  r kgrm ierg îrg rgoi ru rgoi  r grgn zri nrtio zrt bzto rztpozri trt r rpo nrto rop rto rtop rtoi rto rt oirt tr ort rtior i r oi "
-                        android:textSize="18sp"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -526,7 +526,7 @@
                         android:layout_marginBottom="10dp"
                         android:padding="20dp"
                         android:text="offbvoifbvrfoivnrfovinrfviirnov rvoi  ri rg rgoi   r  oirn oir iorg  r oir rg oig gro g  g igi og  rg   gr oig nrgk  r kgrm ierg îrg rgoi ru rgoi  r grgn zri nrtio zrt bzto rztpozri trt r rpo nrto rop rto rtop rtoi rto rt oirt tr ort rtior i r oi "
-                        android:textSize="20sp" />
+                        android:textSize="15sp" />
 
                     <Button
                         android:id="@+id/button2"
@@ -590,7 +590,7 @@
                     android:gravity="center"
                     android:text="17"
                     android:textColor="@color/black"
-                    android:textSize="50sp"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -600,7 +600,7 @@
                     android:layout_marginBottom="20dp"
                     android:gravity="center"
                     android:text="Vidéos de cours"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -611,7 +611,7 @@
                     android:gravity="center"
                     android:text="A propos de notre travail pozfoiefbveffjv eroviebnvoiervb jehfvùzrvzertvjzr tivujer vervbzrfiuvberhv ri brhjvn rotujvb roi bhir  pzehrviuertvhbeithv r iursfb iurov niur iorfdh b ieuhjboizeiwjaZPAOID "
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="15sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -640,7 +640,7 @@
                     android:gravity="center"
                     android:text="17"
                     android:textColor="@color/black"
-                    android:textSize="50sp"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -650,7 +650,7 @@
                     android:layout_marginBottom="20dp"
                     android:gravity="center"
                     android:text="Vidéos de cours"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -661,7 +661,7 @@
                     android:gravity="center"
                     android:text="A propos de notre travail pozfoiefbveffjv eroviebnvoiervb jehfvùzrvzertvjzr tivujer vervbzrfiuvberhv ri brhjvn rotujvb roi bhir  pzehrviuertvhbeithv r iursfb iurov niur iorfdh b ieuhjboizeiwjaZPAOID "
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="15sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -690,7 +690,7 @@
                     android:gravity="center"
                     android:text="17"
                     android:textColor="@color/black"
-                    android:textSize="50sp"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -700,7 +700,7 @@
                     android:layout_marginBottom="20dp"
                     android:gravity="center"
                     android:text="Vidéos de cours"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -711,7 +711,7 @@
                     android:gravity="center"
                     android:text="A propos de notre travail pozfoiefbveffjv eroviebnvoiervb jehfvùzrvzertvjzr tivujer vervbzrfiuvberhv ri brhjvn rotujvb roi bhir  pzehrviuertvhbeithv r iursfb iurov niur iorfdh b ieuhjboizeiwjaZPAOID "
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="15sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -737,7 +737,7 @@
                     android:layout_marginTop="25dp"
                     android:text="Free Mindfulness Courses"
                     android:textColor="@color/white"
-                    android:textSize="40dp"
+                    android:textSize="25dp"
                     android:textStyle="bold" />
 
                 <Button
@@ -761,7 +761,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
                     android:text="Contact Us"
-                    android:textSize="35sp"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
 
                 <LinearLayout
@@ -785,7 +785,7 @@
                             android:layout_margin="10dp"
                             android:text="NAME"
                             android:textColor="@color/black"
-                            android:textSize="23sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                         <TextView
@@ -794,7 +794,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="10dp"
                             android:text="Work"
-                            android:textSize="20sp" />
+                            android:textSize="15sp" />
 
                         <ImageView
                             android:layout_width="50dp"
@@ -829,7 +829,7 @@
                             android:layout_margin="10dp"
                             android:text="NAME"
                             android:textColor="@color/black"
-                            android:textSize="23sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                         <TextView
@@ -838,7 +838,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="10dp"
                             android:text="Work"
-                            android:textSize="20sp" />
+                            android:textSize="15sp" />
 
                         <ImageView
                             android:layout_width="50dp"
@@ -873,7 +873,7 @@
                             android:layout_margin="10dp"
                             android:text="NAME"
                             android:textColor="@color/black"
-                            android:textSize="23sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                         <TextView
@@ -882,7 +882,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="10dp"
                             android:text="Work"
-                            android:textSize="20sp" />
+                            android:textSize="15sp" />
 
                         <ImageView
                             android:layout_width="50dp"
@@ -917,7 +917,7 @@
                             android:layout_margin="10dp"
                             android:text="NAME"
                             android:textColor="@color/black"
-                            android:textSize="23sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                         <TextView
@@ -926,7 +926,7 @@
                             android:layout_gravity="center"
                             android:layout_margin="10dp"
                             android:text="Work"
-                            android:textSize="20sp" />
+                            android:textSize="15sp" />
 
                         <ImageView
                             android:layout_width="50dp"

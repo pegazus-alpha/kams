@@ -4,17 +4,5 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-                <TextView
-                    android:id="@+id/texte"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="bonjour"
-                    android:layout_marginHorizontal="5dp"
-                    android:padding="5dp"
-                    android:background="@drawable/bordures"
-                    android:textSize="16sp"
-                    android:layout_margin="15dp"
-                    android:elevation="2dp"
-                    android:textStyle="bold|italic"
-                    />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
