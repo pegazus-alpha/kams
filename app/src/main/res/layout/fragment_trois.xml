@@ -1,13 +1,455 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-            <TextView
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/foret">
+                <LinearLayout
+                    android:id="@+id/cercle"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/circler"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COURS ET EXERCICES"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    app:layout_constraintTop_toBottomOf="@+id/cercle"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout
+                android:id="@+id/section2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="A propos de nos exercices"
+                    android:textSize="25dp"/>
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bout_n"
+                    android:padding="15dp"
+                    android:text="VOIR PLUS"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logo1"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/gris"
+                    android:alpha="0.25">
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="25dp"
+                    android:alpha="2"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="35dp"
+                    android:textColor="@color/black"
+                    android:text="SEMESTRE 1"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout
                 android:gravity="center"
-                android:text="semestre 1"
-                android:textSize="25sp"
-                android:textStyle="bold"/>
-</androidx.constraintlayout.widget.ConstraintLayout>
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:elevation="3dp"
+                    android:layout_margin="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:elevation="3dp"
+                        android:layout_width="50dp"
+                        android:padding="5dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/circle"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cours"
+                        />
+                    <TextView
+                        android:id="@+id/a"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:text="INF 111"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:elevation="3dp"
+                    android:layout_margin="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:elevation="3dp"
+                        android:layout_width="50dp"
+                        android:padding="5dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/circle"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cours"
+                        />
+                    <TextView
+                        android:id="@+id/aa"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:text="INF 121"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:elevation="3dp"
+                    android:layout_margin="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:elevation="3dp"
+                        android:layout_width="50dp"
+                        android:padding="5dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/circle"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cours"
+                        />
+                    <TextView
+                        android:id="@+id/ab"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:text="INF 131"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:elevation="3dp"
+                    android:layout_margin="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:padding="5dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/circle"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cours"
+                        android:elevation="3dp"
+                        />
+                    <TextView
+                        android:id="@+id/ac"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:text="INF 141"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:elevation="3dp"
+                    android:layout_margin="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:elevation="3dp"
+                        android:layout_width="50dp"
+                        android:padding="5dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/circle"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cours"
+                        />
+                    <TextView
+                        android:id="@+id/ad"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:text="INF 151"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:elevation="3dp"
+                    android:layout_margin="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:elevation="3dp"
+                        android:layout_width="50dp"
+                        android:padding="5dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/circle"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cours"
+                        />
+                    <TextView
+                        android:id="@+id/ae"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:text="INF 161"/>
+                </LinearLayout>
+            </LinearLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/logo1"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/gris"
+                    android:alpha="0.25">
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="25dp"
+                    android:alpha="2"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="35dp"
+                    android:textColor="@color/black"
+                    android:text="SEMESTRE 2"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:elevation="3dp"
+                    android:layout_margin="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:elevation="3dp"
+                        android:layout_width="50dp"
+                        android:padding="5dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/circle"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cours"
+                        />
+                    <TextView
+                        android:id="@+id/b"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:text="INF 112"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:elevation="3dp"
+                    android:layout_margin="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:elevation="3dp"
+                        android:layout_width="50dp"
+                        android:padding="5dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/circle"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cours"
+                        />
+                    <TextView
+                        android:id="@+id/ba"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:text="INF 122"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:elevation="3dp"
+                    android:layout_margin="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:elevation="3dp"
+                        android:layout_width="50dp"
+                        android:padding="5dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/circle"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cours"
+                        />
+                    <TextView
+                        android:id="@+id/bb"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:text="INF 132"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:elevation="3dp"
+                    android:layout_margin="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:elevation="3dp"
+                        android:layout_width="50dp"
+                        android:padding="5dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/circle"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cours"
+                        />
+                    <TextView
+                        android:id="@+id/bc"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:text="INF 142"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:elevation="3dp"
+                    android:layout_margin="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:padding="5dp"
+                        android:elevation="3dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/circle"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cours"
+                        />
+                    <TextView
+                        android:id="@+id/bd"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:text="INF 152"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:elevation="3dp"
+                    android:layout_margin="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:padding="5dp"
+                        android:elevation="3dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/circle"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cours"
+                        />
+                    <TextView
+                        android:id="@+id/be"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:text="INF 162"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
